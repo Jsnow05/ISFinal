@@ -1,0 +1,200 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #2c2c2c;
+    padding: 20px;
+    text-align: center; /* Center all text by default */
+  }
+  
+  h1 {
+    font-size: 3em; /* Make the title larger */
+    color: #db7093;  /* Pink color for the header */
+    margin-bottom: 20px;
+  }
+  
+  header {
+    background-color: #fff;  /* White background for the header */
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  h2 {
+    color: #c71585;
+    font-size: 2em;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .nail-img {
+    width: 80%; /* Make the image width responsive */
+    max-width: 300px; /* Limit max width for larger screens */
+    border: 4px solid #db7093;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  ol, ul {
+    list-style-type: none; /* Remove default list styles */
+    padding-left: 0;
+  }
+  
+  ol {
+    text-align: left; /* Align ordered list to the left */
+    display: inline-block; /* Allow the list to be inline */
+    margin-top: 20px;
+  }
+  
+  ul {
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-family: 'Arial', sans-serif; /* Change font family */
+    color: #c71585; /* Pink color for the heading */
+    font-size: 2.5em; /* Increase size slightly */
+    margin-top: 40px;
+    text-align: center; /* Center the heading */
+  }
+  
+  ol {
+    font-family: 'Courier New', Courier, monospace; /* Different font for the list */
+    margin-top: 20px;
+    font-size: 1.2em; /* Slightly larger font size for readability */
+    text-align: left; /* Align ordered list to the left */
+    display: inline-block; /* Allow the list to be inline */
+  }
+  .intro-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+    color: #7d1e4e;
+    text-align: center;
+  }
+  .bio-text {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #video {
+    background-color: #fff0f5; /* light pink background */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #ffc0cb;
+    border-bottom: 2px solid #ffc0cb;
+  }
+  .nav-links {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .anchor-link {
+    font-family: 'Poppins', sans-serif;
+    color: #d63384;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .anchor-link:hover {
+    text-decoration: underline;
+  }
+  .back-to-top {
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 1.2rem;
+  }
+  
+  .back-to-top:hover {
+    text-decoration: underline;
+  }
+  #tableau {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 2px solid #d1d3d8;
+    border-radius: 10px;
+    margin-top: 40px; /* Adds space above */
+    margin-bottom: 60px; /* Adds space below */
+  }
+  
+  #tableau iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tableau-section {
+    max-width: 80%; /* Limits the width */
+    margin: 0 auto; /* Centers the section */
+  }
+  
+  .tableauPlaceholder {
+    margin-top: 20px;
+  }
+  
+  #tableau iframe {
+    width: 100%; /* Make sure it’s responsive */
+    height: auto;
+    max-width: 800px; /* Restricts max width */
+  }
+  
+  .tableau-header {
+    color: #333; /* Change to your desired color, e.g., black or a custom color */
+    font-size: 1.8em; /* Adjust the size if needed */
+    font-family: 'Arial', sans-serif; /* Optional: Change the font if needed */
+    margin-bottom: 20px; /* Adds space below the header */
+  }
+  .back-link {
+    text-decoration: none;
+    color: #9b034f; /* Change the color to suit your theme */
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+    color: #080208; /* A darker shade when hovered */
+  }
+  body {
+    background-color: #fdf6f0; /* A soft pastel color for a clean look */
+  }
+  .mood-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc0cb; /* light pink */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .mood-link:hover {
+    background-color: #ff69b4; /* deeper pink */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  
+  
+  
+  
+  
+  

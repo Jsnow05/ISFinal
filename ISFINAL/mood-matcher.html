@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nail Art Mood Matcher</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fff0f5;
+      text-align: center;
+      padding: 30px;
+      color: #333;
+    }
+
+    h1 {
+      color: #c71585;
+    }
+
+    select, button {
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .result {
+      display: none;
+      margin-top: 30px;
+    }
+
+    .result img {
+      width: 200px;
+      border-radius: 10px;
+      margin-top: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💅 Nail Art Mood Matcher</h1>
+  <p>Pick your mood and we’ll show you the perfect nail design!</p>
+
+  <select id="mood">
+    <option value="">-- Select Your Mood --</option>
+    <option value="happy">Happy 😊</option>
+    <option value="moody">Moody 😑</option>
+    <option value="romantic">Romantic 💖</option>
+    <option value="bold">Bold 💥</option>
+    <option value="calm">Calm 🌿</option>
+  </select>
+  <br>
+  <button onclick="showMood()">Find My Look</button>
+
+  <!-- Mood Result Sections -->
+  <div id="happy" class="result">
+    <p>Bright yellow with smiley faces – because your energy is contagious!</p>
+    <img src="smiley.jpg" alt="Happy Nails">
+  </div>
+
+  <div id="moody" class="result">
+    <p>Matte black or deep plum – mysterious, just like your vibe.</p>
+    <img src="plum.jpg" alt="Moody Nails">
+  </div>
+
+  <div id="romantic" class="result">
+    <p>Soft pink with little hearts – sweet and flirty!</p>
+    <img src="soft.jpg" alt="Romantic Nails">
+  </div>
+
+  <div id="bold" class="result">
+    <p>Neon green or hot red – you're here to turn heads!</p>
+    <img src="neon.jpg" alt="Bold Nails">
+  </div>
+
+  <div id="calm" class="result">
+    <p>Pastel blue with simple art – minimal and peaceful.</p>
+    <img src="blue.png" alt="Calm Nails">
+  </div>
+
+  <script>
+    function showMood() {
+      // Hide all results first
+      const allResults = document.querySelectorAll('.result');
+      allResults.forEach(div => div.style.display = 'none');
+
+      // Show the selected mood
+      const mood = document.getElementById('mood').value;
+      if (mood) {
+        const selected = document.getElementById(mood);
+        if (selected) {
+          selected.style.display = 'block';
+        }
+      }
+    }
+  </script>
+<br><br>
+<a href="scratchpage.html" class="btn" style="padding: 10px 20px; background-color: #c71585; color: white; text-decoration: none; border-radius: 5px;">⬅ Back to Main Page</a>
+
+</body>
+</html>
